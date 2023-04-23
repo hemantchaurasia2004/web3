@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_greet",
+						"type": "string"
+					}
+				],
+				"name": "storeNew",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SolidityLearner/simplex.sol": "Simplex"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SolidityLearner/simplex.sol": {
+			"keccak256": "0x405826d177c79c25837eecd19b855a17ab113f98b92285b243b052b447cb15d3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1726a648cd7f19605e0dd87370d0a37f1784bd6d39f2308e2cf6912b41a49e70",
+				"dweb:/ipfs/QmTNUVoLFDTwL9FrWFH68jpL96poCnrgsav7wwG6ZBLn25"
+			]
+		}
+	},
+	"version": 1
+}
